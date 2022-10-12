@@ -79,6 +79,7 @@ public class Menu extends Generales{
             switch (opc) {
                 case "1":
                     cuenta.consultaSaldo();
+                    regresarMenu();
                     break;
                 case "2":
                     Double retiro;

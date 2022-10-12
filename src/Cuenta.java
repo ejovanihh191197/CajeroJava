@@ -15,8 +15,6 @@ public class Cuenta extends Generales{
     }
     
     public void retirar(Double retiro){
-        String opcion = null;
-        boolean salir = true;
         if(this.saldo - retiro >=0){
             Historia elemento = new Historia(saldo, saldo - retiro);
             historia.add(elemento);
