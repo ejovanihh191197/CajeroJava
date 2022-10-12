@@ -94,6 +94,7 @@ public class Menu extends Generales{
                         System.out.println("Lo sentimos, ingrese una cantidad valida");
                     }
                     }while(!validarCantidad(cantidad));
+                    regresarMenu();
                     break;
                 case "3":
                     if(!cuenta.getHistoria().isEmpty()){
